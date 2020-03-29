@@ -12,9 +12,13 @@ const burger = props => {
     transformedingredients = Object.keys(transformedingredients)
                             .map( igname =>  [...Array(props.ingredients[igname])]
                             .map(  (_,index) =>  {return <BurgerIngredients key={index+igname} type={igname} />})
-                             )
+                             ).reduce( (arr,el) => { return arr.concat(el)}, [])
 
     console.log(transformedingredients)
+
+    if (transformedingredients.length === 0){
+        transformedingredients = <p>Please start adding ingredients here</p>
+    }
 
     return (
 
