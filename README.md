@@ -1,3 +1,5 @@
+https://dev.azure.com/s0pott05/glennissolutions/_apis/build/status/saikiranece043.react-burger-app?branchName=master
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
