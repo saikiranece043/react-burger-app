@@ -1,4 +1,5 @@
-https://dev.azure.com/s0pott05/glennissolutions/_apis/build/status/saikiranece043.react-burger-app?branchName=master
+[![Build Status](https://dev.azure.com/s0pott05/glennissolutions/_apis/build/status/saikiranece043.react-burger-app?branchName=master)](https://dev.azure.com/s0pott05/glennissolutions/_build/latest?definitionId=5&branchName=master)
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
